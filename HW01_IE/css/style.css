@@ -1,0 +1,39 @@
+@import url("banner.css");
+@import url("card.css");
+@import url("avatar.css");
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+h2 {
+  font-size: 2.3vw;
+  color: #000;
+  margin: 0vw;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 90%;
+  margin: 4vw auto;
+  margin-bottom: 6vw;
+}
+#end_page{
+  text-align: center;
+  background-color: #333;
+  padding: 1vw;
+  color: aliceblue;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 10px 0px 25px rgb(112 104 104 / 30%);
+}
+@media (max-width:800px) {
+  #end_page{
+    font-size: 2vw;
+    padding: 2vw;
+  }
+}

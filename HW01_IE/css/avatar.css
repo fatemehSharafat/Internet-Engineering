@@ -1,0 +1,10 @@
+.avatar {
+    border-radius: 30vw;
+    width: 4vw;
+}
+@media (max-width:800px) {
+    .avatar{
+        width: 7vw;
+        margin: 0.7vw;
+    }
+}

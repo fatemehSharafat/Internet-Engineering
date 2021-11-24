@@ -1,0 +1,122 @@
+.cards {
+  display: flex ;
+  flex-wrap: wrap;
+  margin: 0.7vw; 
+}
+
+.card {
+  flex: 1 1 auto;
+  margin: 0.7vw;
+  margin-top: 3.7vw;
+  height: 20vw;
+  background-repeat: no-repeat;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ;
+  padding: 0;
+}
+
+.card:hover {
+  cursor: pointer;
+  margin-top: 2.7vw;
+}
+.card-body {
+  flex: 1 1 auto;
+  background: no-repeat center/cover  ;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+  
+
+}
+.card-user {
+  float: right;
+  padding: 0.9vw;
+
+}
+.card-category {
+  font:1.4vw sans-serif;
+  color: white;
+  text-align: left;
+  display:inline-block;
+  margin: 0.7vw;
+ 
+}
+
+
+.card-description {
+  text-align: left;
+  margin-left: 1vw;
+  color:white;
+  margin-top: 7vw;
+  text-shadow: 0 0 10px rgba(0,0,0,0.3);
+ 
+
+}
+.card-description h2 {
+  margin-top: 6vw;
+  padding-bottom: 0.7vw;
+  color:white;
+  font-size: 1.6vw;
+
+
+}
+.card-description p {
+  color:white;
+  font-size: 1.2vw;
+
+
+
+}
+.card-footer {
+ padding: 1.5vw;
+ color: rgb(192, 188, 188);
+ font-size: 1.2vw;
+
+}
+.card-footer p {
+  display:inline;
+  
+}
+.card-footer .controls{
+  display:inline;
+
+
+}
+.card-footer .controls i{
+  color: rgb(192, 188, 188);
+  float: right;
+    margin-left: 1.2vw;
+   
+
+}
+.card-footer .controls i:hover{
+  color: rgb(105, 102, 102);
+}
+@media (max-width: 800px) {
+  .cards{
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 8vw; 
+  }
+  .card{
+    height: 30vw;
+  }
+  .card-description{
+    margin-top: 6vw;
+  }
+  .card-description p{
+    font-size: 2.5vw;
+    margin-top: 1vw;
+  }
+  .card-description h2{
+    font-size: 3vw;
+    margin-top: 2vw;
+  }
+  .card-category{
+    font-size: 3vw;
+    margin: 2vw;
+  }
+  .card-footer{
+    font-size: 2vw;
+  }
+}
